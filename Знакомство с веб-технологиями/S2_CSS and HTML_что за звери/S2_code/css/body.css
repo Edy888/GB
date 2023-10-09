@@ -1,3 +1,8 @@
+p {
+    font-family: 'Roboto', sans-serif;
+    /* И для обычного текста применяем шрифт "Roboto" */
+}
+
 /* Установите максимальную ширину для body */
 body {
     max-width: 100%;

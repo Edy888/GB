@@ -2,12 +2,3 @@
     margin: 1; /* внешний отступ друг от друга*/
     padding: 1; /* внутри блока */
 }
-/* подключение шрифта, позволяет подключить собственное семейство шрифтов */
-@font-face {
-    font-family: Our fonts;
-    src: url(../fonts/ComicNeue-Light.ttf);
-}
-
-html {
-    width: 100%; 
-}

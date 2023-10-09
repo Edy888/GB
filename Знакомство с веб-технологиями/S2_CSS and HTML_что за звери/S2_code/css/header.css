@@ -1,3 +1,9 @@
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    /* Аналогично, для заголовков применяем шрифт "Montserrat" */
+}
+
+
 /*расположение header */
 .main-header, .main-header__menu {
     display: flex;
