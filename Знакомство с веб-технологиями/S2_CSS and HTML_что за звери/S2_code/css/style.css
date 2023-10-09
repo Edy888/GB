@@ -1,0 +1,23 @@
+* {
+    margin: 0; /* внешний отступ друг от друга*/
+    padding: 0; /* внутри блока */
+}
+/* подключение шрифта, позволяет подключить собственное семейство шрифтов */
+@font-face {
+    font-family: Our fonts;
+    src: url(../fonts/ComicNeue-Light.ttf);
+}
+
+html {
+    width: 100%; 
+}
+/* добавляем шрифт к body*/
+body{
+    font-family: Our fonts, Tahoma, Geneva, Verdana, sana-serif;
+    font-size: 16px;
+}
+
+/* */
+.center{
+    margin: 5px 5px 5px 5px;
+}

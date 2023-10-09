@@ -1,95 +1,102 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>spheralab.pro</title>
+    <meta charset="UTF-8"> <!--кодировка текста --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">          <!--по ширине, масштаб 1.0 --> 
+    <title>spheralab.pro</title>                        <!--название в поисковой строке сверху --> 
     <link rel="stylesheet" href="./css/style.css">
+            <!--  <link>: Элемент <link> используется для связывания внешних ресурсов с HTML-документом. 
+            В данном случае, это связывание внешнего стиля.
+            rel="stylesheet": Этот атрибут указывает на отношение между текущим документом (вашей HTML-страницей) 
+            и связываемым ресурсом. Значение "stylesheet" указывает на то, что это связанный стилевой файл.
+            href="./css/style.css": Этот атрибут указывает на путь к внешнему файлу стилей, который должен 
+            быть использован для оформления вашей HTML-страницы. -->
 </head>
+
 <body>
-    <header class="main-header">
-        <div class="main-header__logo"
-            <img src="./img/logo.png" alt="Это лого" class="logo">
+    <header class="main-header" center>  <!-- Это начало раздела заголовка страницы, обернутого в элемент <header>. Атрибут class задает класс CSS, 
+                                который может использоваться для стилизации этого элемента. В данном случае, элемент имеет класс "main-header" + 
+                                добавили margin center из css .--> 
+        
+        <div class="main-header__logo"> <!--Внутри раздела заголовка создается блок <div>, который также имеет класс "main-header__logo" --> 
+            <img src="./img/logo.png" alt="Это лого" class="logo"> <!-- Внутри блока "main-header__logo" размещается изображение (<img>). Атрибут src указывает путь к изображению "logo.png". 
+                                                                    Атрибут alt предоставляет текст, который будет отображаться, если изображение не может быть загружено, и также может 
+                                                                    использоваться для доступности. Кроме того, изображение получает класс "logo", который может использоваться для стилизации с помощью CSS.--> 
         </div>
-        <div class="main-header__tittle">
-            <h1 class="main-tittle">
+
+        <div class="main-header__tittle"> <!--Под блоком логотипа создается блок "main-header__tittle", вероятно, для размещения заголовка вашей страницы. --> 
+            <h1 class="main-tittle"> <!-- Внутри блока "main-header__tittle" размещается заголовок <h1>. Это может быть основным заголовком вашей страницы. Здесь также присутствует класс "main-tittle" для стилизации--> 
                 This is my first page
             </h1>
         </div>
-        <div class="main-header__menu">
-            <nav class="header_menu">
-                <li><a href="#">Main page</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#about me">Details</a></li>
+
+        <div class="main-header__menu"> <!--Наконец, после блока с заголовком создается блок "main-header__menu". Этот блок, вероятно, предназначен для размещения меню вашей страницы.-->
+            <nav class="header_menu"> <!--Внутри блока "main-header__menu" размещается элемент <nav>, который представляет собой навигационное меню. Он имеет класс "header_menu" для стилизации. --> 
+                <li><a href="#main page">Main page</a></li> <!-- Внутри меню есть список <li>, каждый из которых содержит ссылку (<a>). Ссылки имеют текстовое содержание (например, "Main page", "About me", "Details") и атрибут href, который указывает на целевые страницы или разделы, на которые будут переходы при нажатии на ссылку.--> 
+                <li><a href="#about me">About me</a></li>
+                <li><a href="#achivements">Details</a></li> <!--это название, которое мы добавили из main h2, путем создания в блоке 2 id-->
             </nav>
         </div>
+
     </header>
-    <main class="content">
-        <section class="content__one">
-            <h2 class="content-title" id = 'main page'>
+
+    <main class="content"> <!-- Это начало раздела <main> вашей веб-страницы. Он имеет класс "content", который может использоваться для стилизации этого элемента.--> 
+        <section class="content__one"> <!-- Этот элемент <section> представляет первый блок содержания на вашей странице. Он имеет класс "content__one". Внутри этого раздела есть заголовок (<h2>) и абзац (<p>)--> 
+            <h2 class="content-title" id = 'main page'> <!-- Это заголовок второго уровня (<h2>), который имеет класс "content-title". Заголовок указывает на "Заголовок блока 1" и также имеет атрибут id, который позволяет создать якорь для этого раздела--> 
                 Заголовок блока 1
             </h2>
-            <p class="content-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae asperiores vero illum aut quasi dolorum 
-                tempora voluptatibus nesciunt inventore sed! Natus similique, ab vel dicta corporis ipsa et debitis aliquid?
-                Nulla perspiciatis molestiae natus totam perferendis, cupiditate quod optio nostrum accusamus quisquam 
-                porro beatae, deleniti sequi est cum sint? Dolore doloremque animi ratione voluptas dolores alias tempore, magnam saepe nesciunt.
-                Error vitae fugiat nulla et cumque harum assumenda veritatis dolore, cum consectetur provident commodi! 
-                Ipsam necessitatibus non itaque consequatur a maiores fuga ut explicabo, corporis rem at iure. Illo, ipsa!
-                Vero explicabo, rem necessitatibus omnis quaerat cum error, qui temporibus dolor corrupti ut 
-                accusantium nihil consectetur molestias, odio architecto. Ea, quibusdam excepturi sed minima 
-                aspernatur enim magnam recusandae earum fuga! Quam neque et, fuga iure reiciendis cumque dolorem 
-                dolorum ipsa alias nesciunt a animi accusamus beatae quod voluptas ullam eum in veritatis voluptatibus 
-                blanditiis atque! Facere accusantium debitis autem quibusdam.
+
+            <p class="content-text"> <!--Этот элемент <p> представляет текстовое содержание первого раздела. --> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
             </p>
+
         </section>
+
         <section class="content__two">
             <h2 class="content-title" id="about me">
                 Заголовок блока 2
             </h2>
+
             <p class="content-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae asperiores vero illum aut quasi dolorum 
                 tempora voluptatibus nesciunt inventore sed! Natus similique, ab vel dicta corporis ipsa et debitis aliquid?
-                Nulla perspiciatis molestiae natus totam perferendis, cupiditate quod optio nostrum accusamus quisquam 
-                porro beatae, deleniti sequi est cum sint? Dolore doloremque animi ratione voluptas dolores alias tempore, magnam saepe nesciunt.
-                Error vitae fugiat nulla et cumque harum assumenda veritatis dolore, cum consectetur provident commodi! 
-                Ipsam necessitatibus non itaque consequatur a maiores fuga ut explicabo, corporis rem at iure. Illo, ipsa!
-                Vero explicabo, rem necessitatibus omnis quaerat cum error, qui temporibus dolor corrupti ut 
-                accusantium nihil consectetur molestias, odio architecto. Ea, quibusdam excepturi sed minima 
-                aspernatur enim magnam recusandae earum fuga! Quam neque et, fuga iure reiciendis cumque dolorem 
-                dolorum ipsa alias nesciunt a animi accusamus beatae quod voluptas ullam eum in veritatis voluptatibus 
-                blanditiis atque! Facere accusantium debitis autem quibusdam.
+                
             </p>
+
         </section>
+
         <section class="content__three">
+
             <h2 class="content-title" id = 'achivements'>
                 Заголовок блока 3
             </h2>
+
             <p class="content-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae asperiores vero illum aut quasi dolorum 
                 tempora voluptatibus nesciunt inventore sed! Natus similique, ab vel dicta corporis ipsa et debitis aliquid?
-                Nulla perspiciatis molestiae natus totam perferendis, cupiditate quod optio nostrum accusamus quisquam 
-                porro beatae, deleniti sequi est cum sint? Dolore doloremque animi ratione voluptas dolores alias tempore, magnam saepe nesciunt.
-                Error vitae fugiat nulla et cumque harum assumenda veritatis dolore, cum consectetur provident commodi! 
-                Ipsam necessitatibus non itaque consequatur a maiores fuga ut explicabo, corporis rem at iure. Illo, ipsa!
-                Vero explicabo, rem necessitatibus omnis quaerat cum error, qui temporibus dolor corrupti ut 
-                accusantium nihil consectetur molestias, odio architecto. Ea, quibusdam excepturi sed minima 
-                aspernatur enim magnam recusandae earum fuga! Quam neque et, fuga iure reiciendis cumque dolorem 
-                dolorum ipsa alias nesciunt a animi accusamus beatae quod voluptas ullam eum in veritatis voluptatibus 
-                blanditiis atque! Facere accusantium debitis autem quibusdam.
             </p>
+
         </section>
     </main>
-    <footer class="footer">
-        <div class="footer__info">
-            <p class="footer-text">
-                &copy; All rights reserve. This my first page.
+
+<!--Этот HTML-код представляет собой фрагмент разметки для футера (нижней части веб-страницы). Вот пояснения к каждой части кода: -->
+    <footer class="footer">  <!--Это открывающий тег элемента <footer>, который представляет собой блок, содержащий информацию внизу страницы -->
+        
+        <div class="footer__info"> <!--Этот код представляет собой контейнер <div>, вложенный внутрь футера. Он может использоваться для размещения информации, такой как текст копирайта-->
+            <p class="footer-text"> <!--Этот тег <p> используется для создания абзаца текста внутри блока .footer__info. class="footer-text" - это атрибут класса для применения стилей к этому абзацу.-->
+                &copy; All rights reserve. This my first page. <!--&copy; - это HTML-код для символа копирайта ©. Затем идет текст "All rights reserve.", который означает "Все права защищены".-->
                 Come on!
             </p>
         </div>
-        <div class="footer-up-link">
-            <a href="#top" class="footer-link">Вверх страницы</a>
+
+        <div class="footer-up-link"> <!--class="footer-up-link" - это атрибут класса для применения стилей.-->
+            <a href="#top" class="footer-link">Вверх страницы</a> <!--  "a.footer-link" Этот код представляет собой гиперссылку <a>, которая может использоваться для перехода к какой-то части страницы 
+                                                                (в данном случае, к элементу с идентификатором "top"). href="#top" - это атрибут href, который определяет, куда будет переходить пользователь при нажатии на ссылку. -->
         </div>
+
     </footer>
+
 </body>
+
 </html>

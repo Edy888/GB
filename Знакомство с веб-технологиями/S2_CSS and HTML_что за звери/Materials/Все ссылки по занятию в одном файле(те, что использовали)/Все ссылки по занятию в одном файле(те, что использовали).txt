@@ -1,0 +1,36 @@
+Все ссылки, что использовали на занятии:
+htmlbook: https://www.google.com/search?q=htmlbook&oq=html&aqs=chrome.0.69i59j69i57j0i67i650l3j69i60l2j69i61.1679j0j7&sourceid=chrome&ie=UTF-8
+
+Вставка векторной графики через object:
+https://svg-art.ru/?page_id=1047
+https://basicweb.ru/html/tag_object.php
+
+Псевдоклассы:
+
+https://developer.mozilla.org/ru/docs/Web/CSS/:active
+https://developer.mozilla.org/ru/docs/Web/CSS/Pseudo-classes
+
+
+Картинки:
+https://www.klipartz.com/ru - без фона, бесплатные
+https://unsplash.com/ - с фоном, есть также бесплатные
+https://www.svgrepo.com/svg/444847/photo - бесплатные svg
+
+Шрифты:
+https://fonts.google.com/specimen/Montserrat?query=montserrat&subset=cyrillic&noto.script=Cyrl
+
+
+Шпоры Flex:
+https://tpverstak.ru/flex-cheatsheet/
+https://www.w3.org/TR/css-flexbox-1/#flex-containers
+https://habr.com/ru/articles/313938/
+
+Сохраненные куски кода по запросу:
+https://nekobin.com/buxemevabi
+https://nekobin.com/tomiyetepu
+
+
+Удалить фон с изображения:
+https://www.remove.bg/ru/upload
+
+
