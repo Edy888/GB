@@ -1,0 +1,20 @@
+/* Установите максимальную ширину для body */
+body {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    max-width: 100%;
+    margin: 1;
+    padding: 0 20px; /* Пример отступа справа и слева от краев экрана */
+}
+
+.content__one ul {
+    list-style-type: disc; /* Маркер списка в виде кружков */
+    margin-left: 20px; /* Отступ слева для списка */
+}
+
+.content__one li {
+    margin-bottom: 10px; /* Отступ между пунктами списка */
+}

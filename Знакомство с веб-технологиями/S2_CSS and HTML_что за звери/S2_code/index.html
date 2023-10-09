@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">          <!--по ширине, масштаб 1.0 --> 
     <title>spheralab.pro</title>                        <!--название в поисковой строке сверху --> 
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/body.css">
+    <link el="stylesheet" href="./css/header.css">
             <!--  <link>: Элемент <link> используется для связывания внешних ресурсов с HTML-документом. 
             В данном случае, это связывание внешнего стиля.
             rel="stylesheet": Этот атрибут указывает на отношение между текущим документом (вашей HTML-страницей) 
@@ -15,7 +17,7 @@
 </head>
 
 <body>
-    <header class="main-header" center>  <!-- Это начало раздела заголовка страницы, обернутого в элемент <header>. Атрибут class задает класс CSS, 
+    <header class="main-header center">  <!-- Это начало раздела заголовка страницы, обернутого в элемент <header>. Атрибут class задает класс CSS, 
                                 который может использоваться для стилизации этого элемента. В данном случае, элемент имеет класс "main-header" + 
                                 добавили margin center из css .--> 
         
@@ -41,16 +43,18 @@
 
     </header>
 
-    <main class="content"> <!-- Это начало раздела <main> вашей веб-страницы. Он имеет класс "content", который может использоваться для стилизации этого элемента.--> 
+    <main class="content center"> <!-- Это начало раздела <main> вашей веб-страницы. Он имеет класс "content", который может использоваться для стилизации этого элемента.--> 
         <section class="content__one"> <!-- Этот элемент <section> представляет первый блок содержания на вашей странице. Он имеет класс "content__one". Внутри этого раздела есть заголовок (<h2>) и абзац (<p>)--> 
             <h2 class="content-title" id = 'main page'> <!-- Это заголовок второго уровня (<h2>), который имеет класс "content-title". Заголовок указывает на "Заголовок блока 1" и также имеет атрибут id, который позволяет создать якорь для этого раздела--> 
                 Заголовок блока 1
             </h2>
-
-            <p class="content-text"> <!--Этот элемент <p> представляет текстовое содержание первого раздела. --> 
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            </p>
-
+            <ul>
+                <li>If you allow me, I would like to tell you about my interests and a little life-story first.</li>
+                <li>I am really into sports: I work out 3 times a week, and I have been playing football since my childhood. I’m married to my beautiful wife Alina, we have an Akita dog named Eka. </li>
+                <li>I was born in Saint Petersburg. Later when I was 3 years old, my parents and I moved to Belarus, and I grew up in Gomel. There I graduated from the Medical University in a diagnostic department in 2013. </li>
+                <li>After graduating my university, I'd been working as a Doctor of Laboratory diagnostics at district hospital for 3 years. I was working with MINDRAY chemistry analyzers, results validation. </li>
+                <li>Later, in 2016 my wife and I moved to Moscow. At first, I’d been working as a Doctor of Laboratory diagnostics for 6 months. My responsibilities included working in chemistry and immunochemistry departments. In 2017 I started working at a distributers company as a hemostasis application specialist. I’d worked there for 3 years.</li>
+            </ul>
         </section>
 
         <section class="content__two">
@@ -59,8 +63,9 @@
             </h2>
 
             <p class="content-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae asperiores vero illum aut quasi dolorum 
-                tempora voluptatibus nesciunt inventore sed! Natus similique, ab vel dicta corporis ipsa et debitis aliquid?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, amet! Molestias id harum natus ullam deserunt! Itaque adipisci ea quia unde, deleniti laudantium atque reprehenderit illo porro accusamus quaerat praesentium aliquid nulla dolor 
+                quam veritatis fugit ab, corrupti rem? Harum quasi accusantium quis officiis quod, libero earum, eligendi modi nemo ullam soluta eaque nam asperiores dolore, ad fuga illum debitis beatae? Delectus voluptas cumque ad libero sunt. Dolorum saepe 
+                quisquam ipsam, libero vero, placeat voluptate porro perspiciatis minima exercitationem reiciendis quaerat a non. Quo corporis temporibus tempore, impedit ratione neque tenetur praesentium culpa aperiam, repellat tempora quia. Ab, nesciunt aliquid.
                 
             </p>
 
@@ -73,8 +78,8 @@
             </h2>
 
             <p class="content-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae asperiores vero illum aut quasi dolorum 
-                tempora voluptatibus nesciunt inventore sed! Natus similique, ab vel dicta corporis ipsa et debitis aliquid?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis sequi ratione cupiditate, beatae voluptatum dolorum corrupti rem consequuntur mollitia incidunt hic veritatis accusantium molestias? Placeat ratione perspiciatis voluptas consequatur 
+                dolorem repellat exercitationem nemo sunt pariatur incidunt eaque, distinctio harum molestiae assumenda quo eveniet! Labore obcaecati, sequi asperiores explicabo atque sapiente.
             </p>
 
         </section>
@@ -83,9 +88,9 @@
 <!--Этот HTML-код представляет собой фрагмент разметки для футера (нижней части веб-страницы). Вот пояснения к каждой части кода: -->
     <footer class="footer">  <!--Это открывающий тег элемента <footer>, который представляет собой блок, содержащий информацию внизу страницы -->
         
-        <div class="footer__info"> <!--Этот код представляет собой контейнер <div>, вложенный внутрь футера. Он может использоваться для размещения информации, такой как текст копирайта-->
+        <div class="footer__info center"> <!--Этот код представляет собой контейнер <div>, вложенный внутрь футера. Он может использоваться для размещения информации, такой как текст копирайта-->
             <p class="footer-text"> <!--Этот тег <p> используется для создания абзаца текста внутри блока .footer__info. class="footer-text" - это атрибут класса для применения стилей к этому абзацу.-->
-                &copy; All rights reserve. This my first page. <!--&copy; - это HTML-код для символа копирайта ©. Затем идет текст "All rights reserve.", который означает "Все права защищены".-->
+                &copy; All rights reserved. This my first page. <!--&copy; - это HTML-код для символа копирайта ©. Затем идет текст "All rights reserve.", который означает "Все права защищены".-->
                 Come on!
             </p>
         </div>
@@ -100,3 +105,5 @@
 </body>
 
 </html>
+
+
