@@ -1,0 +1,20 @@
+.footer {
+    background-color: #333; /* Цвет фона футера */
+    color: #fff; /* Цвет текста в футере */
+    padding: 20px; /* Внутренний отступ футера */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+.footer .footer-text {
+    font-size: 14px; /* Размер шрифта текста */
+}
+
+.footer .footer-link {
+    text-decoration: none; /* Убираем подчеркивание у ссылки */
+    color: #fff; /* Цвет ссылки */
+    margin-top: 10px; /* Отступ от верхнего края */
+    display: inline-block; /* Делаем ссылку блочным элементом */
+    padding: 5px 10px; /* Внутренний отступ кнопки */
+    background-color: #0077b6; /* Цвет фона кнопки */
+    border-radius: 5px; /* Закругление углов кнопки */
+}

@@ -1,0 +1,46 @@
+/*расположение header */
+.main-header, .main-header__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* заходим в стиль main-header и прописываем расположение для отдельного селектора*/
+.main-header .main-header__logo, .main-header__tittle {
+    margin: 10px 50px; 
+}
+
+.main-header .main-header__logo .logo {
+    width: 90px;
+    height: 90px;
+}
+
+/* работа с header*/
+.main-header__tittle .main-tittle{
+    font-family: Our fonts;
+    font-size: 20px;
+    line-height: 14px;
+} 
+/* работа с меню */
+.header_menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header_menu li{
+    padding: 0 24px; /* Внутренние отступы для кнопок */
+    list-style-type: none; /* Убрать маркеры списка */
+}
+
+.header_menu li a {
+    text-decoration: none; /* Убрать подчеркивание у ссылок */
+    color: #fff; /* Цвет текста кнопок */
+    font-weight: bold; /* Жирный текст */
+}
+
+.header_menu li:hover {
+    background-color: #333; /* Изменение фона при наведении курсора */
+    border-radius: 5px; /* Закругление углов кнопок */
+}
+
+/* Это стилизация footer */
