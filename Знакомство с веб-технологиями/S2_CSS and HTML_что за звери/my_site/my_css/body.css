@@ -1,16 +1,28 @@
 /* Основной контейнер с контентом */
 .my-content {
-    padding: 120px;
-    margin-right: 100px; /* Отступ справа */
-
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 250px;
+    margin-right: 250px; /* Отступ справа */
+    margin-bottom: 100px;
+    padding-bottom: 20px;
 }
+
+.my-content__one{
+    background-color: rgb(201, 225, 226);
+    font-size: medium;
+}
+
 
 /* Заголовки секций */
 .content-title {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    color: #333; /* Цвет заголовка */
+    padding-top: 20px;
+    color: #ce1286; /* Цвет заголовка */
+    position: relative;
+    padding-left: 250px;
 }
 
 /* Текст контента */
