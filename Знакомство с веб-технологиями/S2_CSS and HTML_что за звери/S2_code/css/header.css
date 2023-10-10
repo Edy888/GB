@@ -1,36 +1,30 @@
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
-    /* Аналогично, для заголовков применяем шрифт "Montserrat" */
-}
+/* ________________________________Работ с LOGO__________________________________________________________ */
 
-
-/*расположение header */
-.main-header, .main-header__menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 /* заходим в стиль main-header и прописываем расположение для отдельного селектора*/
-.main-header .main-header__logo, .main-header__tittle {
-    margin: 10px 50px; 
+.main-header__logo{
+    margin: 20px 20px 10px 10px; 
 }
 
 .main-header .main-header__logo .logo {
-    width: 90px;
-    height: 90px;
+    width: 150px;
+    height: 150px;
 }
 
-/* работа с header*/
-.main-header__tittle .main-tittle{
-    font-family: Our fonts;
-    font-size: 20px;
-    line-height: 14px;
-} 
+/* ______________________________________Работа с MENU____________________________________________________ */
+
+
+/*расположение header__menu */
+.main-header__menu {
+    display: flex; /* Устанавливает отображение элементов как flex-контейнер */
+    flex-direction: row;/* Определяет направление размещения дочерних элементов: в строку */
+    justify-content: flex-end; /* Смещает элементы вправо */
+    align-items: center; /* Это свойство опечатка, должно быть align-items: center; */
+}
 /* работа с меню */
 .header_menu{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: flex; /* Устанавливает отображение элементов как flex-контейнер */
+    flex-direction: row; /* Определяет направление размещения дочерних элементов: в строку */
+    align-items: center; /* Выравнивает элементы по центру вертикально */
 }
 
 .header_menu li{
@@ -42,6 +36,7 @@ h1, h2, h3 {
     text-decoration: none; /* Убрать подчеркивание у ссылок */
     color: #fff; /* Цвет текста кнопок */
     font-weight: bold; /* Жирный текст */
+    font-size: 20px; /* Установите нужный размер шрифта */
 }
 
 .header_menu li:hover {
@@ -49,4 +44,22 @@ h1, h2, h3 {
     border-radius: 5px; /* Закругление углов кнопок */
 }
 
-/* Это стилизация footer */
+/* ___________________________TITLE______________________________________________________________ */
+
+/* Блок .main-tittle:
+Этот блок настраивает стили для элемента с классом .main-tittle. Этот класс, вероятно, используется для настройки 
+стилей для заголовка внутри блока с классом main-header__tittle. Здесь устанавливается размер шрифта, цвет текста 
+и отступы для этого заголовка. */
+
+
+.main-header__tittle {
+    font-size: 26px;
+    color: #333;
+    margin: -140px 200px 20px 350px; /* Установите нужный отступ сверху и снизу */
+}
+
+.main-header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
