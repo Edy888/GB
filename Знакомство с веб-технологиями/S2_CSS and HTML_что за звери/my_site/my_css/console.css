@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -350px;
+    width: 250px;
+    height: 100vh; /* Устанавливаем высоту равной 100% высоты окна просмотра */
+    background-color: #333;
+    color: #fff;
+    transition: left 0.3s;
+    overflow-y: auto;
+    z-index: 1000;
+    opacity: 0.95;
+}
+.sidebar-content {
+    padding: 20px;
+}
+
+.sidebar-content a {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar-content a:hover {
+    text-decoration: underline;
+}
+
+.toggle-button, .close-button {
+    position: absolute;
+    left: 2px;
+    top: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 2000;
+    opacity: 0.6;
+    margin: 100px auto;
+    border-radius:3px;
+}
+
+.close-button {
+    position: absolute;
+    left: 210px; /* Отступ слева от панели */
+    top: -95px; /* Отступ сверху от панели */
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999;  /*  чтобы оверлей был под панелью, но поверх всего остального*/
+}

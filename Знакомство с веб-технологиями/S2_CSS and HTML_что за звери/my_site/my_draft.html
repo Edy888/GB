@@ -7,12 +7,16 @@
     <title>Spheralab.pro</title>
     <link rel="stylesheet" href="./my_css/my-header.css">
     <link rel="stylesheet" href="./my_css/reset.css">
-    
+    <link rel="stylesheet" href="./my_css/console.css">
+    <link rel="stylesheet" href="./my_css/body.css">
 
 
 </head>
-        
-<header class="my-main-header">
+
+
+<body>
+
+    <header class="my-main-header">
 
         <div class="my-main-header__logo">
             <img src="./my_img/bar.png" alt="" class="logo_img">
@@ -29,16 +33,91 @@
             <div class="burger-line"></div>
             <div class="burger-line"></div>
             <div class="burger-line"></div>
-
-            <div class="dropdown-menu" id="dropdownMenu">
-
+            <div class="burger-line"></div>
         </div>
         
+        <div class="dropdown-menu" id="dropdownMenu">
+            <a href="#">Пункт 1</a>
+            <a href="#">Пункт 2</a>
+            <a href="#">Пункт 3</a>
+            <a href="#">Пункт 4</a>
+            <!-- ... другие пункты меню ... -->
+        </div>
+    </header>
 
 
-</header>
-        
-<body>
+      <!-- Кнопка для открытия/закрытия консоли -->
+      <button id="toggleSidebar" class="toggle-button">Details</button>
+
+        <div id="sidebar" class="sidebar">
+            <button id="closeSidebar" class="close-button">x</button>
+            <div class="sidebar-content">
+                <p>LIST:</p>
+                <a href="#">Ссылка 1</a>
+                <a href="#">Ссылка 2</a>
+                <a href="#">Ссылка 3</a>
+                <a href="#">Ссылка 4</a>
+                <a href="#">Ссылка 5</a>
+                </div>
+        </div>
+
+        <div id="overlay" class="overlay"></div> <!-- создаем оверлей (для затемнения) -->
+
+
+
+
+
+
+
+        <main class="my-content center"> <!-- Это начало раздела <main> вашей веб-страницы. Он имеет класс "content", который может использоваться для стилизации этого элемента.--> 
+            <section class="my-content__one"> <!-- Этот элемент <section> представляет первый блок содержания на вашей странице. Он имеет класс "content__one". Внутри этого раздела есть заголовок (<h2>) и абзац (<p>)--> 
+                <h2 class="content-title" id = 'main page'> <!-- Это заголовок второго уровня (<h2>), который имеет класс "content-title". Заголовок указывает на "Заголовок блока 1" и также имеет атрибут id, который позволяет создать якорь для этого раздела--> 
+                    Main Page
+                </h2>
+                <ul>
+                    <li>If you allow me, I would like to tell you about my interests and a little life-story first.</li>
+                    <li>I am really into sports: I work out 3 times a week, and I have been playing football since my childhood. I’m married to my beautiful wife Alina, we have an Akita dog named Eka. </li>
+                    <li>I was born in Saint Petersburg. Later when I was 3 years old, my parents and I moved to Belarus, and I grew up in Gomel. There I graduated from the Medical University in a diagnostic department in 2013. </li>
+                    <li>After graduating my university, I'd been working as a Doctor of Laboratory diagnostics at district hospital for 3 years. I was working with MINDRAY chemistry analyzers, results validation. </li>
+                    <li>Later, in 2016 my wife and I moved to Moscow. At first, I’d been working as a Doctor of Laboratory diagnostics for 6 months. My responsibilities included working in chemistry and immunochemistry departments. In 2017 I started working at a distributers company as a hemostasis application specialist. I’d worked there for 3 years.</li>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, amet! Molestias id harum natus ullam deserunt! Itaque adipisci ea quia unde, deleniti laudantium atque reprehenderit illo porro accusamus quaerat praesentium aliquid nulla dolor 
+                    quam veritatis fugit ab, corrupti rem? Harum quasi accusantium quis officiis quod, libero earum, eligendi modi nemo ullam soluta eaque nam asperiores dolore, ad fuga illum debitis beatae? Delectus voluptas cumque ad libero sunt. Dolorum saepe 
+                    quisquam ipsam, libero vero, placeat voluptate porro perspiciatis minima exercitationem reiciendis quaerat a non. Quo corporis temporibus tempore, impedit ratione neque tenetur praesentium culpa aperiam, repellat tempora quia. Ab, nesciunt aliquid.
+                </ul>
+            </section>
+    
+            <section class="my-content__two">
+                <h2 class="content-title" id="about me">
+                    About Me
+                </h2>
+    
+                <p class="my-content-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, amet! Molestias id harum natus ullam deserunt! Itaque adipisci ea quia unde, deleniti laudantium atque reprehenderit illo porro accusamus quaerat praesentium aliquid nulla dolor 
+                    quam veritatis fugit ab, corrupti rem? Harum quasi accusantium quis officiis quod, libero earum, eligendi modi nemo ullam soluta eaque nam asperiores dolore, ad fuga illum debitis beatae? Delectus voluptas cumque ad libero sunt. Dolorum saepe 
+                    quisquam ipsam, libero vero, placeat voluptate porro perspiciatis minima exercitationem reiciendis quaerat a non. Quo corporis temporibus tempore, impedit ratione neque tenetur praesentium culpa aperiam, repellat tempora quia. Ab, nesciunt aliquid.
+                    
+                </p>
+    
+            </section>
+    
+            <section class="my-content__three">
+    
+                <h2 class="my-content-title" id = 'achivements'>
+                    Details
+                </h2>
+    
+                <p class="my-content-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis sequi ratione cupiditate, beatae voluptatum dolorum corrupti rem consequuntur mollitia incidunt hic veritatis accusantium molestias? Placeat ratione perspiciatis voluptas consequatur 
+                    dolorem repellat exercitationem nemo sunt pariatur incidunt eaque, distinctio harum molestiae assumenda quo eveniet! Labore obcaecati, sequi asperiores explicabo atque sapiente.
+                </p>
+    
+            </section>
+        </main>
+    
+
+
+
+
 
     <script src="./my_js/button.js"></script>
 </body>
