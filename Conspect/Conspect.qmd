@@ -340,3 +340,43 @@ img {
  margin: 0 auto;
 }
 ```
+
+------------------------------------------------------------------------
+
+## Seminar 2 Создание сайта с нуля
+
+### 1. Необходимые программы
+
+1.  VSC или SubLime Text
+
+2.  Wireframe.cc (сайт)
+
+3.  
+
+**Начало работы в VSC:**
+
+1.  Создаем папку проекта, добавляем файл **index.html**
+
+2.  В файле нажимаем **shift+!** (VSC) / В SubLime добавляем `<html>` - автоматически создадутся блоки.
+
+``` html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    # name = видовое окно, область которую будет видеть пользователь (<body>....</body>)
+    content = width=device-width - как он будет отображаться (по ширине контента в любом уст.),
+    initial-scale=1.0 - масштаб (100%, shift- уменьшает контент)
+    <title>Document</title> название  в поисковой строке сверху
+</head>
+
+<body>
+    <header class="main-header"> #(создаем header, создаем класс)
+        <div class="main-header__logo" # в классе header создаем logo через div (строчное расположение)
+</body>
+</html>
+```
+
+3.  Для предварительного просмотра в VSC нажимаем goLive(на нижней панели) - открывается страница в браузере для предпросмотра.
